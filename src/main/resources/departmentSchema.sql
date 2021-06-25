@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS Departments;
+CREATE TABLE Departments (
+id INT AUTO_INCREMENT  PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+description VARCHAR(50) NOT NULL,
+departmentId VARCHAR NOT NULL,
+);
